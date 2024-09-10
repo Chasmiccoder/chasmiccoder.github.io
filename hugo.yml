@@ -1,0 +1,54 @@
+baseURL: "https://examplesite.com/"
+title: "Aryaman Kolhe"
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+# pygmentsUseClasses: true
+# mainsections: ["posts", "papermod"]
+
+
+# googleAnalytics: UA-123-45
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: Blog
+          url: archives/
+          weight: 5
+        # - name: Archives
+        #   url: archives/
+        #   weight: 5
+        - name: Search
+          url: search/
+          weight: 10
+        - name: Tags
+          url: tags/
+          weight: 10
+        - name: Photography
+          url: photography
+          weight: 15
+        - name: CV
+          url: https://github.com/adityatelange/hugo-PaperMod/wiki/
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: ExampleSite
+  description: "ExampleSite description"
+  keywords: [Blog, Portfolio]
+  author: Aryaman
