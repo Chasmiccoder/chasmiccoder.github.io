@@ -10,8 +10,6 @@ buildExpired: false
 enableEmoji: true
 # pygmentsUseClasses: true
 # mainsections: ["posts", "papermod"]
-
-
 # googleAnalytics: UA-123-45
 
 minify:
@@ -52,3 +50,17 @@ params:
   description: "ExampleSite description"
   keywords: [Blog, Portfolio]
   author: Aryaman
+
+  homeInfoParams:
+    Title: Hi there!
+    Content: Thanks for dropping by! I am an undergraduate student at IIIT Hyderabad. My thesis advisor is Prof. Uttam Singh, and I am currently exploring the field of quantum complexity theory as undergraduate researcher at CQST.
+    imageUrl: "img/my-photo.JPG" # optional
+    imageTitle: "<title of image as alt>" # optional
+    imageWidth: 300 # custom size
+    imageHeight: 225 # custom size
+
+  socialIcons: # optional
+    - name: "<platform>"
+      url: "<link>"
+    - name: "<platform 2>"
+      url: "<link2>"
